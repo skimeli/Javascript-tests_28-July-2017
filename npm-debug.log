@@ -1,0 +1,227 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   '--verbose',
+1 verbose cli   'requirejs' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'requirejs', null ]
+5 verbose cache add name=undefined spec="requirejs" args=["requirejs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'requirejs',
+6 verbose parsed url   path: 'requirejs',
+6 verbose parsed url   href: 'requirejs' }
+7 silly lockFile f2b16c35-requirejs requirejs
+8 verbose lock requirejs /home/vagrant/.npm/f2b16c35-requirejs.lock
+9 silly lockFile f2b16c35-requirejs requirejs
+10 silly lockFile f2b16c35-requirejs requirejs
+11 verbose addNamed [ 'requirejs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e9b02655-requirejs requirejs@
+14 verbose lock requirejs@ /home/vagrant/.npm/e9b02655-requirejs.lock
+15 silly addNameRange { name: 'requirejs', range: '*', hasData: false }
+16 verbose url raw requirejs
+17 verbose url resolving [ 'http://registry.npmjs.com/', './requirejs' ]
+18 verbose url resolved http://registry.npmjs.com/requirejs
+19 info trying registry request attempt 1 at 16:07:55
+20 http GET http://registry.npmjs.com/requirejs
+21 http 200 http://registry.npmjs.com/requirejs
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Thu, 27 Jul 2017 01:58:35 GMT',
+22 silly registry.get     etag: '"597948cb-c765"',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '51045',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sat, 29 Jul 2017 16:07:56 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-jnb7521-JNB',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1501344476.274624,VS0,VE530',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'requirejs', range: '*', hasData: true }
+24 silly addNameRange versions [ 'requirejs',
+24 silly addNameRange   [ '0.26.0',
+24 silly addNameRange     '0.27.0',
+24 silly addNameRange     '0.27.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '1.0.2',
+24 silly addNameRange     '1.0.3',
+24 silly addNameRange     '1.0.4',
+24 silly addNameRange     '1.0.5',
+24 silly addNameRange     '1.0.6',
+24 silly addNameRange     '1.0.7',
+24 silly addNameRange     '1.0.8',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.0.3',
+24 silly addNameRange     '2.0.4',
+24 silly addNameRange     '2.0.5',
+24 silly addNameRange     '2.0.6',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.1.4',
+24 silly addNameRange     '2.1.5',
+24 silly addNameRange     '2.1.6',
+24 silly addNameRange     '2.1.7',
+24 silly addNameRange     '2.1.8',
+24 silly addNameRange     '2.1.9',
+24 silly addNameRange     '2.1.10',
+24 silly addNameRange     '2.1.11',
+24 silly addNameRange     '2.1.12',
+24 silly addNameRange     '2.1.13',
+24 silly addNameRange     '2.1.14',
+24 silly addNameRange     '2.1.15',
+24 silly addNameRange     '2.1.16',
+24 silly addNameRange     '2.1.17',
+24 silly addNameRange     '2.1.18',
+24 silly addNameRange     '2.1.19',
+24 silly addNameRange     '2.1.20',
+24 silly addNameRange     '2.1.21',
+24 silly addNameRange     '2.1.22',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '2.3.2',
+24 silly addNameRange     '2.3.3',
+24 silly addNameRange     '2.3.4' ] ]
+25 verbose addNamed [ 'requirejs', '2.3.4' ]
+26 verbose addNamed [ '2.3.4', '2.3.4' ]
+27 silly lockFile 81ff0430-requirejs-2-3-4 requirejs@2.3.4
+28 verbose lock requirejs@2.3.4 /home/vagrant/.npm/81ff0430-requirejs-2-3-4.lock
+29 silly lockFile 1e5f1668-rg-requirejs-requirejs-2-3-4-tgz http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz
+30 verbose lock http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz /home/vagrant/.npm/1e5f1668-rg-requirejs-requirejs-2-3-4-tgz.lock
+31 verbose addRemoteTarball [ 'http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz',
+31 verbose addRemoteTarball   'f45c48e66ebf0f163da57f6e0cf40fd57996ef50' ]
+32 info retry fetch attempt 1 at 16:07:56
+33 verbose fetch to= /home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/tmp.tgz
+34 http GET http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz
+35 http 200 http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz
+36 verbose tar unpack /home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/tmp.tgz
+37 silly lockFile 1ad7b615-76871-0-6608898176345974-package tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+38 verbose lock tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package /home/vagrant/.npm/1ad7b615-76871-0-6608898176345974-package.lock
+39 silly lockFile bc5eab4f-76871-0-6608898176345974-tmp-tgz tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/tmp.tgz
+40 verbose lock tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/tmp.tgz /home/vagrant/.npm/bc5eab4f-76871-0-6608898176345974-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry require.js
+45 silly gunzTarPerm extractEntry bin/r.js
+46 silly lockFile 1ad7b615-76871-0-6608898176345974-package tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+47 silly lockFile 1ad7b615-76871-0-6608898176345974-package tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+48 silly lockFile bc5eab4f-76871-0-6608898176345974-tmp-tgz tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/tmp.tgz
+49 silly lockFile bc5eab4f-76871-0-6608898176345974-tmp-tgz tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/tmp.tgz
+50 verbose tar pack [ '/home/vagrant/.npm/requirejs/2.3.4/package.tgz',
+50 verbose tar pack   '/home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package' ]
+51 verbose tarball /home/vagrant/.npm/requirejs/2.3.4/package.tgz
+52 verbose folder /home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+53 silly lockFile 1ad7b615-76871-0-6608898176345974-package tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+54 verbose lock tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package /home/vagrant/.npm/1ad7b615-76871-0-6608898176345974-package.lock
+55 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+56 verbose lock tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz /home/vagrant/.npm/9807393a--npm-requirejs-2-3-4-package-tgz.lock
+57 silly lockFile 1ad7b615-76871-0-6608898176345974-package tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+58 silly lockFile 1ad7b615-76871-0-6608898176345974-package tar:///home/vagrant/tmp/npm-7466-rq3RNV2i/1501344476871-0.6608898176345974/package
+59 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+60 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+61 silly lockFile 6ddb0065-rant-npm-requirejs-2-3-4-package /home/vagrant/.npm/requirejs/2.3.4/package
+62 verbose lock /home/vagrant/.npm/requirejs/2.3.4/package /home/vagrant/.npm/6ddb0065-rant-npm-requirejs-2-3-4-package.lock
+63 silly lockFile 6ddb0065-rant-npm-requirejs-2-3-4-package /home/vagrant/.npm/requirejs/2.3.4/package
+64 silly lockFile 6ddb0065-rant-npm-requirejs-2-3-4-package /home/vagrant/.npm/requirejs/2.3.4/package
+65 verbose tar unpack /home/vagrant/.npm/requirejs/2.3.4/package.tgz
+66 silly lockFile b2fe31ff-rant-npm-requirejs-2-3-4-package tar:///home/vagrant/.npm/requirejs/2.3.4/package
+67 verbose lock tar:///home/vagrant/.npm/requirejs/2.3.4/package /home/vagrant/.npm/b2fe31ff-rant-npm-requirejs-2-3-4-package.lock
+68 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+69 verbose lock tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz /home/vagrant/.npm/9807393a--npm-requirejs-2-3-4-package-tgz.lock
+70 silly gunzTarPerm modes [ '755', '644' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm extractEntry require.js
+74 silly gunzTarPerm extractEntry bin/r.js
+75 silly lockFile b2fe31ff-rant-npm-requirejs-2-3-4-package tar:///home/vagrant/.npm/requirejs/2.3.4/package
+76 silly lockFile b2fe31ff-rant-npm-requirejs-2-3-4-package tar:///home/vagrant/.npm/requirejs/2.3.4/package
+77 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+78 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+79 verbose chmod /home/vagrant/.npm/requirejs/2.3.4/package.tgz 644
+80 verbose chown /home/vagrant/.npm/requirejs/2.3.4/package.tgz [ 1000, 1000 ]
+81 silly lockFile 1e5f1668-rg-requirejs-requirejs-2-3-4-tgz http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz
+82 silly lockFile 1e5f1668-rg-requirejs-requirejs-2-3-4-tgz http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz
+83 silly lockFile 81ff0430-requirejs-2-3-4 requirejs@2.3.4
+84 silly lockFile 81ff0430-requirejs-2-3-4 requirejs@2.3.4
+85 silly lockFile e9b02655-requirejs requirejs@
+86 silly lockFile e9b02655-requirejs requirejs@
+87 silly resolved [ { name: 'requirejs',
+87 silly resolved     description: 'Node adapter for RequireJS, for loading AMD modules. Includes RequireJS optimizer',
+87 silly resolved     version: '2.3.4',
+87 silly resolved     homepage: 'http://github.com/jrburke/r.js',
+87 silly resolved     author:
+87 silly resolved      { name: 'James Burke',
+87 silly resolved        email: 'jrburke@gmail.com',
+87 silly resolved        url: 'http://github.com/jrburke' },
+87 silly resolved     license: 'MIT',
+87 silly resolved     repository: { type: 'git', url: 'https://github.com/jrburke/r.js.git' },
+87 silly resolved     main: './bin/r.js',
+87 silly resolved     bin: { 'r.js': './bin/r.js', r_js: './bin/r.js' },
+87 silly resolved     engines: { node: '>=0.4.0' },
+87 silly resolved     readme: '# requirejs\n\nRequireJS for use in Node. includes:\n\n* r.js: the RequireJS optimizer, and AMD runtime for use in Node.\n* require.js: The browser-based AMD loader.\n\nMore information at http://requirejs.org\n\n',
+87 silly resolved     readmeFilename: 'README.md',
+87 silly resolved     bugs: { url: 'https://github.com/jrburke/r.js/issues' },
+87 silly resolved     _id: 'requirejs@2.3.4',
+87 silly resolved     dist: { shasum: '2d58f2ce880aaf999434c8fdd80610fdd6b59d6b' },
+87 silly resolved     _from: 'requirejs@',
+87 silly resolved     _resolved: 'http://registry.npmjs.org/requirejs/-/requirejs-2.3.4.tgz' } ]
+88 info install requirejs@2.3.4 into /usr/local/lib
+89 info installOne requirejs@2.3.4
+90 info /usr/local/lib/node_modules/requirejs unbuild
+91 verbose tar unpack /home/vagrant/.npm/requirejs/2.3.4/package.tgz
+92 silly lockFile 1e7b7797-local-lib-node-modules-requirejs tar:///usr/local/lib/node_modules/requirejs
+93 verbose lock tar:///usr/local/lib/node_modules/requirejs /home/vagrant/.npm/1e7b7797-local-lib-node-modules-requirejs.lock
+94 silly lockFile 9807393a--npm-requirejs-2-3-4-package-tgz tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz
+95 verbose lock tar:///home/vagrant/.npm/requirejs/2.3.4/package.tgz /home/vagrant/.npm/9807393a--npm-requirejs-2-3-4-package-tgz.lock
+96 silly gunzTarPerm modes [ '755', '644' ]
+97 error Error: EACCES, mkdir '/usr/local/lib/node_modules/requirejs'
+97 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/requirejs']
+97 error   errno: 3,
+97 error   code: 'EACCES',
+97 error   path: '/usr/local/lib/node_modules/requirejs',
+97 error   fstream_type: 'Directory',
+97 error   fstream_path: '/usr/local/lib/node_modules/requirejs',
+97 error   fstream_class: 'DirWriter',
+97 error   fstream_stack:
+97 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+97 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+97 error      'Object.oncomplete (fs.js:107:15)' ] }
+98 error Please try running this command again as root/Administrator.
+99 error System Linux 3.13.0-123-generic
+100 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--global" "--verbose" "requirejs"
+101 error cwd /home/vagrant/projects/Javascript-tests_28-July-2017
+102 error node -v v0.10.25
+103 error npm -v 1.3.10
+104 error path /usr/local/lib/node_modules/requirejs
+105 error fstream_path /usr/local/lib/node_modules/requirejs
+106 error fstream_type Directory
+107 error fstream_class DirWriter
+108 error code EACCES
+109 error errno 3
+110 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/requirejs'
+111 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+111 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+111 error fstream_stack Object.oncomplete (fs.js:107:15)
+112 verbose exit [ 3, true ]
